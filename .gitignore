@@ -1,0 +1,30 @@
+# .gitignore
+
+# Ignorar la carpeta outputs
+outputs/
+
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar el archivo .env donde se almacenan las variables de entorno
+.env
+
+# Ignorar el directorio de la caché de npm
+.npm
+
+# Ignorar el directorio de la caché de yarn
+.yarn-cache
+
+# Ignorar el directorio de la caché de parcel
+.cache
+
+# Ignorar el directorio de la caché de typescript
+*.tsbuildinfo
+
+# Ignorar el directorio dist
+dist/
